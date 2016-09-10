@@ -1,0 +1,15 @@
+{
+  "name": "simplie-css",
+  "version": "1.0.0",
+  "description": "CSS framework that powers Simplie's front-end design.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/simplie/simplie-css.git"
+  },
+  "author": "kami <hiroki.zenigami@gmail.com> (https://github.com/kami-zh)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplie/simplie-css/issues"
+  },
+  "homepage": "https://github.com/simplie/simplie-css"
+}
