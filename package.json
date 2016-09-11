@@ -12,6 +12,9 @@
     "url": "https://github.com/simplie/simplie-css/issues"
   },
   "homepage": "https://github.com/simplie/simplie-css",
+  "scripts": {
+    "build": "node-sass index.scss build/build.css"
+  },
   "devDependencies": {
     "node-sass": "^3.9.3"
   }
