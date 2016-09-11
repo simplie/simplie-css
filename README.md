@@ -9,6 +9,20 @@ For example, see [Simplie](http://simplie.jp).
 
 - [Simplie CSS Examples](https://simplie.github.io/simplie-css/)
 
+## Usage
+
+### Install
+
+```
+$ npm install --save simplie-css
+```
+
+### Import from SCSS
+
+```scss
+@import 'simplie-css/index';
+```
+
 ## Development
 
 ```
