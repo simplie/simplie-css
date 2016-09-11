@@ -778,6 +778,9 @@ h3 {
 .bg-gray-light {
   background-color: #fafafa; }
 
+.border-gray-light {
+  border: 1px solid #eee; }
+
 .button {
   display: inline-block;
   border-width: 1px;
