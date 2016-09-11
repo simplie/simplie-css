@@ -13,7 +13,8 @@
   },
   "homepage": "https://github.com/simplie/simplie-css",
   "scripts": {
-    "build": "node-sass index.scss build/build.css"
+    "build": "node-sass index.scss build/build.css",
+    "docs:prepare": "cp build/build.css docs/build.css"
   },
   "devDependencies": {
     "node-sass": "^3.9.3"
