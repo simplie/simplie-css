@@ -1,0 +1,7 @@
+hr {
+  &.line {
+    height: 1px;
+    border: none;
+    background-color: $border-gray-light;
+  }
+}

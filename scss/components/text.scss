@@ -1,0 +1,25 @@
+.text {
+  &-gray {
+    color: $text-gray;
+  }
+
+  &-small {
+    font-size: .8rem;
+  }
+
+  &-x_small {
+    font-size: .75rem;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-right {
+    text-align: right;
+  }
+}

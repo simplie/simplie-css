@@ -1,0 +1,5 @@
+.card {
+  @extend .p-3;
+  border: 1px solid $border-gray-light;
+  border-radius: 2px;
+}

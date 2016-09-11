@@ -1,5 +1,15 @@
-@import 'scss/lib/colors';
-
-body {
-  color: $text-gray-dark;
-}
+@import 'normalize.css/normalize';
+@import 'scss/lib/clearfix';
+@import 'scss/lib/variables';
+@import 'scss/base';
+@import 'scss/components/margin';
+@import 'scss/components/padding';
+@import 'scss/components/background';
+@import 'scss/components/button';
+@import 'scss/components/card';
+@import 'scss/components/column';
+@import 'scss/components/container';
+@import 'scss/components/label';
+@import 'scss/components/line';
+@import 'scss/components/row';
+@import 'scss/components/text';

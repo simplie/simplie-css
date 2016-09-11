@@ -1,0 +1,12 @@
+.container {
+  @extend .mx-auto;
+  width: $container-width;
+}
+
+@media (max-width: $container-width) {
+  .container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
