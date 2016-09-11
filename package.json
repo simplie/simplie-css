@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/simplie/simplie-css/issues"
   },
-  "homepage": "https://github.com/simplie/simplie-css"
+  "homepage": "https://github.com/simplie/simplie-css",
+  "devDependencies": {
+    "node-sass": "^3.9.3"
+  }
 }
