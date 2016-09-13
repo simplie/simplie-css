@@ -1,16 +1,16 @@
 .label {
-  @extend .py-2;
-  @extend .px-3;
+  @extend .px-2;
+  @extend .border-radius;
   @extend .bg-gray;
+  @extend .text-gray;
+  @extend .text-x_small;
   display: inline-block;
-  border-radius: 2px;
-  color: $text-gray;
-  font-size: .8rem;
-  text-decoration: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
 
   .count {
     @extend .ml-1;
-    color: $text-gray-light;
-    font-size: .75rem;
+    @extend .text-gray-light;
+    @extend .text-x_small;
   }
 }

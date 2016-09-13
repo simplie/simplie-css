@@ -20,9 +20,27 @@
     color: $text-green;
   }
 
+  &-gray-light {
+    border-color: $text-gray-light;
+    color: $text-gray-light;
+  }
+
+  &-disabled {
+    border-color: $text-silver;
+    color: $text-silver;
+  }
+
   &-transparent {
     border-color: $text-white;
     color: $text-white;
+  }
+
+  &-small {
+    @extend .py-0;
+    @extend .px-3;
+    @extend .text-x_small;
+    padding-top: 1px;
+    line-height: 21px;
   }
 
   &-circle {
@@ -33,6 +51,8 @@
     text-align: center;
 
     &.button-small {
+      @extend .px-0;
+      @extend .pb-0;
       width: 24px;
       line-height: 21px;
     }

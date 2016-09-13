@@ -3,6 +3,7 @@
 }
 
 html {
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -26,4 +27,31 @@ h2 {
 
 h3 {
   font-size: 1rem;
+}
+
+a {
+  color: $text-blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul {
+  padding-left: 2em;
+}
+
+code {
+  font-family: Consolas, Menlo, Courier, monospace;
+}
+
+input[type=search] {
+  @extend .py-1;
+  @extend .px-3;
+  @extend .border-gray-light;
+  @extend .text-gray;
+  @extend .text-x_small;
+  outline: none;
+  border-radius: 999em;
 }

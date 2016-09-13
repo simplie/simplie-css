@@ -2,4 +2,12 @@
   &-gray-light {
     border: 1px solid $border-gray-light;
   }
+
+  &-bottom {
+    border-width: 0 0 1px;
+  }
+
+  &-radius {
+    border-radius: 2px;
+  }
 }

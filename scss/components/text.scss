@@ -1,14 +1,46 @@
 .text {
+  &-white {
+    color: $text-white;
+  }
+
+  &-silver {
+    color: $text-silver;
+  }
+
+  &-gray-light {
+    color: $text-gray-light;
+  }
+
   &-gray {
     color: $text-gray;
   }
 
+  &-gray-dark {
+    color: $text-gray-dark;
+  }
+
+  &-large {
+    font-size: 1.15rem;
+  }
+
+  &-normal-size {
+    font-size: 1rem;
+  }
+
   &-small {
-    font-size: .8rem;
+    font-size: .85rem;
   }
 
   &-x_small {
     font-size: .75rem;
+  }
+
+  &-normal-weight {
+    font-weight: normal;
+  }
+
+  &-bold {
+    font-weight: bold;
   }
 
   &-left {

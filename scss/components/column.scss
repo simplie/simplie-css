@@ -28,6 +28,14 @@
   width: 75%;
 }
 
+.three-eighths {
+  width: 37.5%;
+}
+
+.five-eighths {
+  width: 62.5%;
+}
+
 @media (max-width: $container-width) {
   .column {
     width: 100%;
