@@ -1,13 +1,13 @@
 .button {
   @extend .py-2;
   @extend .px-4;
-  @extend .text-gray;
   @extend .text-small;
   display: inline-block;
   border-width: 1px;
   border-style: solid;
   border-radius: 999em;
   border-color: $text-gray;
+  color: $text-gray;
 
   &-blue {
     border-color: $text-blue;
