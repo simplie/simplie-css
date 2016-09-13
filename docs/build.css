@@ -629,7 +629,7 @@ input[type=search] {
 .p-7 {
   padding: 60px; }
 
-.py-0, .button-small {
+.py-0, .button.button-small {
   padding-top: 0px;
   padding-bottom: 0px; }
 
@@ -661,7 +661,7 @@ input[type=search] {
   padding-top: 60px;
   padding-bottom: 60px; }
 
-.px-0, .button-circle.button-small {
+.px-0 {
   padding-right: 0px;
   padding-left: 0px; }
 
@@ -673,7 +673,7 @@ input[type=search] {
   padding-right: 8px;
   padding-left: 8px; }
 
-.px-3, input[type=search], .button-small, .column {
+.px-3, input[type=search], .button.button-small, .column {
   padding-right: 12px;
   padding-left: 12px; }
 
@@ -741,7 +741,7 @@ input[type=search] {
 .pr-7 {
   padding-right: 60px; }
 
-.pb-0, .button-circle.button-small {
+.pb-0 {
   padding-bottom: 0px; }
 
 .pb-1 {
@@ -809,10 +809,7 @@ input[type=search] {
   border-width: 1px;
   border-style: solid;
   border-radius: 999em;
-  border-color: #666;
-  color: #666;
-  font-size: .8rem;
-  text-decoration: none; }
+  border-color: #666; }
   .button-blue {
     border-color: #369;
     color: #369; }
@@ -828,7 +825,7 @@ input[type=search] {
   .button-transparent {
     border-color: #fff;
     color: #fff; }
-  .button-small {
+  .button.button-small {
     padding-top: 1px;
     line-height: 21px; }
   .button-circle {
@@ -839,6 +836,8 @@ input[type=search] {
     text-align: center; }
     .button-circle.button-small {
       width: 24px;
+      padding-right: 0;
+      padding-left: 0;
       line-height: 21px; }
 
 .card {
@@ -943,7 +942,7 @@ hr.line {
 .text-gray-light, .dropdown i, .label .count {
   color: #999; }
 
-.text-gray, input[type=search], .dropdown a, .label {
+.text-gray, input[type=search], .button, .dropdown a, .label {
   color: #666; }
 
 .text-gray-dark {
@@ -955,10 +954,10 @@ hr.line {
 .text-normal-size {
   font-size: 1rem; }
 
-.text-small, .dropdown {
+.text-small, .button, .dropdown {
   font-size: .85rem; }
 
-.text-x_small, input[type=search], .button-small, .label, .label .count {
+.text-x_small, input[type=search], .button.button-small, .label, .label .count {
   font-size: .75rem; }
 
 .text-normal-weight {
