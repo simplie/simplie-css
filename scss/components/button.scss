@@ -1,14 +1,13 @@
 .button {
   @extend .py-2;
   @extend .px-4;
+  @extend .text-gray;
+  @extend .text-small;
   display: inline-block;
   border-width: 1px;
   border-style: solid;
   border-radius: 999em;
   border-color: $text-gray;
-  color: $text-gray;
-  font-size: .8rem;
-  text-decoration: none;
 
   &-blue {
     border-color: $text-blue;
@@ -35,7 +34,7 @@
     color: $text-white;
   }
 
-  &-small {
+  &.button-small {
     @extend .py-0;
     @extend .px-3;
     @extend .text-x_small;
@@ -51,9 +50,9 @@
     text-align: center;
 
     &.button-small {
-      @extend .px-0;
-      @extend .pb-0;
       width: 24px;
+      padding-right: 0;
+      padding-left: 0;
       line-height: 21px;
     }
   }
