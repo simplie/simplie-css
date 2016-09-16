@@ -789,6 +789,9 @@ input[type=search] {
 .pl-7 {
   padding-left: 60px; }
 
+.bg-white {
+  background-color: #fff; }
+
 .bg-gray, .label {
   background-color: #f5f5f5; }
 
@@ -927,6 +930,9 @@ hr.line {
   border: none;
   background-color: #eee; }
 
+.position-absolute {
+  position: absolute; }
+
 .position-relative {
   position: relative; }
 
@@ -975,3 +981,11 @@ hr.line {
 
 .text-right {
   text-align: right; }
+
+.text-middle {
+  vertical-align: middle; }
+
+.fa-hatena::before {
+  font-family: Verdana;
+  font-weight: bold;
+  content: 'B!'; }
