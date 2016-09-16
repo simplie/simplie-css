@@ -1,4 +1,5 @@
 .bg {
+  &-white      { background-color: $bg-white; }
   &-gray       { background-color: $bg-gray; }
   &-gray-light { background-color: $bg-gray-light; }
 }

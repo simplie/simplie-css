@@ -8,11 +8,12 @@ $text-blue: #369;
 $text-green: #396;
 $border-gray: #ddd;
 $border-gray-light: #eee;
+$bg-white: #fff;
 $bg-gray: #f5f5f5;
 $bg-gray-light: #fafafa;
 
 // Widths
-$container-width: 840px;
+$container-width: 840px !default;
 
 // Spaces
 $space-0: 0px;
