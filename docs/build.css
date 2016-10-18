@@ -382,12 +382,11 @@ textarea {
 
 html {
   font-size: 14px;
-  line-height: 1.5; }
+  line-height: 1.6; }
 
 body {
   color: #333;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: .9rem; }
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 img {
   max-width: 100%; }
@@ -407,6 +406,7 @@ a {
   a:hover {
     text-decoration: underline; }
 
+ol,
 ul {
   padding-left: 2em; }
 
@@ -830,19 +830,17 @@ input[type=search] {
     border-color: #fff;
     color: #fff; }
   .button.button-small {
-    padding-top: 1px;
-    line-height: 21px; }
+    line-height: 22px; }
   .button-circle {
     width: 32px;
-    padding: 1px 0 0;
+    padding: 0;
     border-radius: 100%;
-    line-height: 29px;
+    line-height: 30px;
     text-align: center; }
     .button-circle.button-small {
       width: 24px;
-      padding-right: 0;
-      padding-left: 0;
-      line-height: 21px; }
+      padding: 0;
+      line-height: 22px; }
 
 .card {
   border: 1px solid #eee;
@@ -956,16 +954,16 @@ hr.line {
   color: #333; }
 
 .text-large {
-  font-size: 1.15rem; }
+  font-size: 1.1rem; }
 
 .text-normal-size {
   font-size: 1rem; }
 
 .text-small, .button, .dropdown {
-  font-size: .85rem; }
+  font-size: .9rem; }
 
 .text-x_small, input[type=search], .button.button-small, .label, .label .count {
-  font-size: .75rem; }
+  font-size: .8rem; }
 
 .text-normal-weight {
   font-weight: normal; }
