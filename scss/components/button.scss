@@ -38,22 +38,20 @@
     @extend .py-0;
     @extend .px-3;
     @extend .text-x_small;
-    padding-top: 1px;
-    line-height: 21px;
+    line-height: 22px;
   }
 
   &-circle {
     width: 32px;
-    padding: 1px 0 0;
+    padding: 0;
     border-radius: 100%;
-    line-height: 29px;
+    line-height: 30px;
     text-align: center;
 
     &.button-small {
       width: 24px;
-      padding-right: 0;
-      padding-left: 0;
-      line-height: 21px;
+      padding: 0;
+      line-height: 22px;
     }
   }
 }
