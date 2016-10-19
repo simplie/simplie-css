@@ -413,6 +413,9 @@ ul {
 code {
   font-family: Consolas, Menlo, Courier, monospace; }
 
+blockquote {
+  border-left: 3px solid #ddd; }
+
 input[type=search] {
   outline: none;
   border-radius: 999em; }
@@ -477,7 +480,7 @@ input[type=search] {
   margin-right: auto;
   margin-left: auto; }
 
-.mx-0 {
+.mx-0, blockquote {
   margin-right: 0px;
   margin-left: 0px; }
 
@@ -771,7 +774,7 @@ input[type=search] {
 .pl-1 {
   padding-left: 4px; }
 
-.pl-2 {
+.pl-2, blockquote {
   padding-left: 8px; }
 
 .pl-3 {
@@ -889,7 +892,7 @@ input[type=search] {
 .d-none {
   display: none; }
 
-.d-block {
+.d-block, .text-truncate {
   display: block; }
 
 .d-inline-block, .dropdown i {
@@ -947,7 +950,7 @@ hr.line {
 .text-gray-light, .dropdown i, .label .count {
   color: #999; }
 
-.text-gray, input[type=search], .dropdown a, .label {
+.text-gray, blockquote, input[type=search], .dropdown a, .label {
   color: #666; }
 
 .text-gray-dark {
@@ -959,7 +962,7 @@ hr.line {
 .text-normal-size {
   font-size: 1rem; }
 
-.text-small, .button, .dropdown {
+.text-small, blockquote, .button, .dropdown {
   font-size: .9rem; }
 
 .text-x_small, input[type=search], .button.button-small, .label, .label .count {
@@ -982,6 +985,11 @@ hr.line {
 
 .text-middle {
   vertical-align: middle; }
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
 
 .fa-hatena::before {
   font-family: Verdana;
