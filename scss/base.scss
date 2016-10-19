@@ -46,6 +46,14 @@ code {
   font-family: Consolas, Menlo, Courier, monospace;
 }
 
+blockquote {
+  @extend .mx-0;
+  @extend .pl-2;
+  @extend .text-gray;
+  @extend .text-small;
+  border-left: 3px solid $border-gray;
+}
+
 input[type=search] {
   @extend .py-1;
   @extend .px-3;
